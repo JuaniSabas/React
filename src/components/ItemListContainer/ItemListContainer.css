@@ -1,8 +1,19 @@
 
-.contenedor{
-    background-color: cadetblue;
-    height: 80vh;
+.item-list-container{
+    background-color: rgb(124, 124, 124);
+    height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+img{
+    font-size: 50%;
+}
+.tarjeta-producto{
+   font-size: 100%;
 }

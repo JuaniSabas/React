@@ -1,0 +1,21 @@
+.precio-producto {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(117, 176, 139);
+    padding: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0;
+    height: 35px;
+
+}
+.boton-ver{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.tarjeta-producto{
+    border: 1px solid black;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    background-color: rgb(87, 87, 87);
+}

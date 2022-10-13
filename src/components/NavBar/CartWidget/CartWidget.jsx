@@ -1,10 +1,10 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { IoCartSharp } from 'react-icons/io5';
+import { IoLogIn } from "react-icons/io5";
 export const CartWidget = () => {
 
     return(
         <div>
-            <FontAwesomeIcon icon={faCoffee}/>
+            <IoCartSharp icon={IoLogIn}/>
             <span></span>
         </div>
     )

@@ -1,19 +1,30 @@
-.navegation{
+.nav-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid black;
+    background-color: rgb(38, 38, 117);
 }
-.list{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
+a{
+    margin:10px;
+    text-decoration:none;
+    color: rgb(248, 250, 252);
 }
-.list li{
-    margin:5px;
+svg{
+    color: white;
+    font-size: 30px;
+    margin-right: 30px;
+    padding: 0px;
+    cursor:pointer;
+    transition: all 1ms;
+}
+svg:hover{
+    background-color: rgb(167, 167, 167);
+    transition: all 500ms;
 }
 .logo{
-    height: 150px;
+    height: 100px;
+    cursor: pointer;
 }
