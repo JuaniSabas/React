@@ -1,10 +1,8 @@
 import './App.css';
 import NavBar from "./components/NavBar/Navbar";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
-
 import { CardProduct } from "./components/CardProduct/CardProduct";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer.js";
 
 function App() {
