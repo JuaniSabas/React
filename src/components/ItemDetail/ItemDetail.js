@@ -1,7 +1,18 @@
 import './ItemDetail.css';
 import { Count } from '../ItemCount/ItemCount';
+import {useContext} from 'react';
+import { CartContext } from '../../context/CartContext';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-export const ItemDetail = ({ item }) => {
+export const ItemDetail = ({item}) => {
+    const {addProduct} = useContext(CartContext);
+
+    const agregarProducto = (quantity) => {
+        // console.log(quantity);
+        addProduct(item,quantity);
+    }
+
     return (
         <div className='detail-container'>
             <p style={{ width: "100%" }}>Item Detail</p>
@@ -11,11 +22,9 @@ export const ItemDetail = ({ item }) => {
             <div className='img-container'>
                 <h4>{item.name}</h4>
                 <h5>$ {item.precio}</h5>
-                <h6 className="card-title h4 text-black p-2 rounded">Cantidad </h6> <Count/>
-              
-              <hr></hr>
-              <button className="btn btn-primary py-0 mt-2 mb-3" ><i className="bi bi-cart-check-fill fs-3"></i> <span className="fs-3 ms-2"> Agregar al carrito</span> </button>
+                <hr></hr>
             </div>
+            <Count stock={5} initial={1} onAdd={agregarProducto} />
         </div>
     )
 }
