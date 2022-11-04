@@ -1,10 +1,10 @@
 ## Proyecto React Coderhouse, Comisión 38120
 ### Descripción
-El proposito de esta E-commerce es con el fin lucrativo para mi emprendimiento dedicado a la venta de bicicletas.
+El proposito de esta e-commerce es con el fin lucrativo para mi emprendimiento dedicado a la venta de bicicletas.
 
 ### React install
-- Instalar Git y NodeJS por npm install(V 2.37.3 & 16.17.0)
-- Clonar repositorio con git clone https://github.com/JuaniSabas/React.git
+- Instalar Git y NodeJS por ~~~npm install~~~(V 2.37.3 & 16.17.0)
+- Clonar repositorio con ~~~git clone~~~ https://github.com/JuaniSabas/React.git
 - Iniciar con npm start (O npm run start)
 
 ### Tecnologia empleada en el proyecto
@@ -14,7 +14,7 @@ El proposito de esta E-commerce es con el fin lucrativo para mi emprendimiento d
 - JavaScript
 - ReactJS
 - Bootstrap5
-- SweetAlerts5
+- SweetAlerts2
 - Firebase
 
 ### Autor
